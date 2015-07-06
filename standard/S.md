@@ -2,7 +2,13 @@
 
     Make: nosun
     Date: 2015-02-03
-    ver : V1.2
+    ver : V1.4.1
+    
+
+## change log
+2015-07-06 
+- 修复天气接口bug
+- 修改host接口，将重定向服务放置在app_version中，兼容之前的版本，后期将去除。
     
 ##说明
 
@@ -629,6 +635,7 @@
     url        : appHost
     methord    : get
     argument   : app_id
+                 app_version
 				 				 
     example    :/api/appHost
     
